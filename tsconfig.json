@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "noEmitHelpers": true
+  },
+  "files": [
+    "ng2-your-library.ts",
+    "./src/components/sample.component.ts",
+    "./src/components/sample.component.spec.ts",
+    "./src/directives/sample.directive.ts",
+    "./src/directives/sample.directive.spec.ts",
+    "./src/pipes/sample.pipe.ts",
+    "./src/pipes/sample.pipe.spec.ts",
+    "./src/services/sample.service.ts",
+    "./src/services/sample.service.spec.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "bundles"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "awesomeTypescriptLoaderOptions": {
+    "forkChecker": true,
+    "useWebpackText": true
+  }
+}

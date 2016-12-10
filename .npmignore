@@ -58,8 +58,6 @@ protractor.conf.js
 tsconfig.json
 tslint.json
 typedoc.json
-typings.json
-typings
 webpack.config.js
 .travis.yml
 .jshintrc

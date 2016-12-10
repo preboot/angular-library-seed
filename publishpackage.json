@@ -1,0 +1,33 @@
+{
+  "name": "ng2-your-library",
+  "version": "0.0.0",
+  "description": "Your library description.",
+  "main": "ng2-your-library",
+  "typings": "index.d.ts",
+	"nativescript": {
+		"platforms": {
+			"android": "2.4.0",
+      "ios": "2.4.0"
+		}
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preboot/angular2-library-seed.git"
+  },
+  "keywords": [
+    "angular",
+    "ng2"
+  ],
+  "author": "Your Name <yourname@yourdomain.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/preboot/angular2-library-seed/issues"
+  },
+  "homepage": "https://github.com/preboot/angular2-library-seed#readme",
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

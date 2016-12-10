@@ -1,8 +1,8 @@
-import {NgModule, ModuleWithProviders} from "@angular/core";
-import {SampleComponent} from './src/app/components/sample.component';
-import {SampleDirective} from './src/app/directives/sample.directive';
-import {SamplePipe} from './src/app/pipes/sample.pipe';
-import {SampleService} from './src/app/services/sample.service';
+import { NgModule, ModuleWithProviders } from "@angular/core";
+import { SampleComponent } from './src/app/components/sample.component';
+import { SampleDirective } from './src/app/directives/sample.directive';
+import { SamplePipe } from './src/app/pipes/sample.pipe';
+import { SampleService } from './src/app/services/sample.service';
 
 // for manual imports
 export * from './src/app/components/sample.component';

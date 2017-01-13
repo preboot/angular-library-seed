@@ -1,12 +1,12 @@
 [![Angular 2 Style Guide](https://mgechev.github.io/angular2-style-guide/images/badge.svg)](https://github.com/mgechev/angular2-style-guide)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
-[![Dependency Status](https://david-dm.org/preboot/angular2-library-seed/status.svg)](https://david-dm.org/preboot/angular2-library-seed#info=dependencies) [![devDependency Status](https://david-dm.org/preboot/angular2-library-seed/dev-status.svg)](https://david-dm.org/preboot/angular2-webpack#info=devDependencies)
+[![Dependency Status](https://david-dm.org/preboot/angular-library-seed/status.svg)](https://david-dm.org/preboot/angular-library-seed#info=dependencies) [![devDependency Status](https://david-dm.org/preboot/angular-library-seed/dev-status.svg)](https://david-dm.org/preboot/angular-library-seed#info=devDependencies)
 
 ## Create an Angular 2 Library Now
 
 ### Quick Start
 
-* [Download zip of library](https://github.com/preboot/angular2-library-seed/archive/master.zip)
+* [Download zip of library](https://github.com/preboot/angular-library-seed/archive/master.zip)
 
 ```bash
 $ cd path/to/unzip/folder
@@ -22,12 +22,12 @@ go to [http://localhost:8080](http://localhost:8080) in your browser.
 
 #### Overview
 
-A simple straight-forward seed for creating Angular 2 Libraries.
+A simple straight-forward seed for creating Angular Libraries.
 
-* Quick start with one sample of each already created (with tests): [Component](https://github.com/preboot/angular2-library-seed/blob/master/src/app/components/sample.component.ts), [Directive](https://github.com/preboot/angular2-library-seed/blob/master/src/app/directives/sample.directive.ts), [Pipe](https://github.com/preboot/angular2-library-seed/blob/master/src/app/pipes/sample.pipe.ts) and [Service](https://github.com/preboot/angular2-library-seed/blob/master/src/app/services/sample.service.ts)
+* Quick start with one sample of each already created (with tests): [Component](https://github.com/preboot/angular-library-seed/blob/master/src/app/components/sample.component.ts), [Directive](https://github.com/preboot/angular-library-seed/blob/master/src/app/directives/sample.directive.ts), [Pipe](https://github.com/preboot/angular-library-seed/blob/master/src/app/pipes/sample.pipe.ts) and [Service](https://github.com/preboot/angular-library-seed/blob/master/src/app/services/sample.service.ts)
 * Uses [Webpack](http://webpack.github.io/) to demo your library.
-* Testing Angular 2 code with [Jasmine](http://jasmine.github.io/) and [Karma](http://karma-runner.github.io/).
-* End-to-end Angular 2 code using [Protractor](https://angular.github.io/protractor/).
+* Testing Angular code with [Jasmine](http://jasmine.github.io/) and [Karma](http://karma-runner.github.io/).
+* End-to-end Angular code using [Protractor](https://angular.github.io/protractor/).
 * Error reported with [TSLint](http://palantir.github.io/tslint/).
 * Documentation with [TypeDoc](http://typedoc.io/).
 
@@ -38,7 +38,7 @@ A simple straight-forward seed for creating Angular 2 Libraries.
     * [Developing](#developing)
     * [Testing](#testing)
     * [Documentation](#documentation)
-    * [Publishing](https://github.com/preboot/angular2-library-seed/blob/master/PUBLISHING.md)
+    * [Publishing](https://github.com/preboot/angular-library-seed/blob/master/PUBLISHING.md)
 * [Credits](#credits)
 * [License](#license)
 

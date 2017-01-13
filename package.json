@@ -1,9 +1,9 @@
 {
-  "name": "ng2-your-library",
+  "name": "ngx-your-library",
   "version": "0.0.0",
   "description": "Your library description.",
   "repository": {
-    "url": "https://github.com/preboot/angular2-library-seed"
+    "url": "https://github.com/preboot/angular-library-seed"
   },
   "license": "MIT",
   "scripts": {

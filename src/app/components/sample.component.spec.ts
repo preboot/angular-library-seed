@@ -15,7 +15,7 @@ describe('SampleComponent', () => {
   it('should have an url', () => {
     let fixture = TestBed.createComponent(SampleComponent);
     fixture.detectChanges();
-    expect(fixture.debugElement.componentInstance.sample).toEqual('Make an Angular 2 Library. Go ahead. Make one :)');
+    expect(fixture.debugElement.componentInstance.sample).toEqual('Make an Angular Library. Go ahead. Make one :)');
   });
 
 });

@@ -28,6 +28,6 @@ describe('SampleService', () => {
     });
 
     it('should ...', () => {
-      expect(sample.title).toBe('Angular 2 Library');
+      expect(sample.title).toBe('Angular Library');
     });
 });

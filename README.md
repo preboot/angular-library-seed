@@ -2,7 +2,7 @@
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 [![Dependency Status](https://david-dm.org/preboot/angular-library-seed/status.svg)](https://david-dm.org/preboot/angular-library-seed#info=dependencies) [![devDependency Status](https://david-dm.org/preboot/angular-library-seed/dev-status.svg)](https://david-dm.org/preboot/angular-library-seed#info=devDependencies)
 
-## Create an Angular 2 Library Now
+## Create an Angular Library Now
 
 ### Quick Start
 
@@ -87,7 +87,7 @@ npm run docs
 ## Credits
 
 * Project setup based on [angular2-webpack](https://github.com/preboot/angular2-webpack)
-* Testing strategies found from [Angular 2 — Unit Testing recipes by Gerard Sans](https://medium.com/google-developer-experts/angular-2-unit-testing-with-jasmine-defe20421584)
+* Testing strategies found from [Angular —  Unit Testing recipes by Gerard Sans](https://medium.com/google-developer-experts/angular-2-unit-testing-with-jasmine-defe20421584)
 
 # License
 

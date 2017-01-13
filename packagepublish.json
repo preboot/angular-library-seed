@@ -1,0 +1,29 @@
+{
+  "name": "ngx-your-library",
+  "version": "0.0.0",
+  "description": "Your library description.",
+  "main": "ngx-your-library",
+  "typings": "ngx-your-library.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preboot/angular-library-seed.git"
+  },
+  "keywords": [
+    "angular",
+    "ng",
+    "ngx",
+    "ng2"
+  ],
+  "author": "Your Name <yourname@yourdomain.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/preboot/angular-library-seed/issues"
+  },
+  "homepage": "https://github.com/preboot/angular-library-seed#readme",
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

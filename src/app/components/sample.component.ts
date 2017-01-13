@@ -8,5 +8,5 @@ import {Component} from '@angular/core';
   styles: ['./sample.component.scss']
 })
 export class SampleComponent {
-  public sample: string = 'Make an Angular 2 Library. Go ahead. Make one :)';
+  public sample: string = 'Make an Angular Library. Go ahead. Make one :)';
 }

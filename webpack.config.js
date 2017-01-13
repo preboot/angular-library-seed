@@ -8,8 +8,6 @@ var autoprefixer = require('autoprefixer');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
-var DashboardPlugin = require('webpack-dashboard/plugin');
-var ForkCheckerPlugin = require('awesome-typescript-loader').ForkCheckerPlugin;
 
 /**
  * Env
@@ -206,14 +204,8 @@ module.exports = function makeWebpackConfig() {
     })
   ];
 
-  if (!isTest && !isProd) {
-      config.plugins.push(new DashboardPlugin());
-  }
-
   if (!isTest && !isTestWatch) {
     config.plugins.push(
-      new ForkCheckerPlugin(),
-
       // Generate common chunks if necessary
       // Reference: https://webpack.github.io/docs/code-splitting.html
       // Reference: https://webpack.github.io/docs/list-of-plugins.html#commonschunkplugin

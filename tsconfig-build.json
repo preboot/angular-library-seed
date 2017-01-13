@@ -2,11 +2,19 @@
   "compilerOptions": {
     "target": "ES5",
     "module": "commonjs",
+    "declaration": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": true,
     "noEmitHelpers": true
   },
+  "files": [
+    "ngx-your-library.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "bundles"
+  ],
   "compileOnSave": false,
   "buildOnSave": false,
   "awesomeTypescriptLoaderOptions": {

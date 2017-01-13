@@ -56,7 +56,9 @@ __build__/**
 
 *.js
 *.js.map
+*.d.ts
 !*.e2e.js
+!prep.js
 !make.js
 !karma*.js
 !protractor.conf.js

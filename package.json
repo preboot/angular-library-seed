@@ -7,9 +7,10 @@
   },
   "license": "MIT",
   "scripts": {
-    "clean": "rimraf node_modules doc dist && npm cache clean",
+    "clean": "rimraf node_modules doc dist && npm cache clean && npm run clean-build",
     "clean-install": "npm run clean && npm install",
     "clean-start": "npm run clean-install && npm start",
+    "clean-build": "rimraf ./src/*.d.ts ./src/*.js ./src/*.js.maps ./ngx-your-library.js ./ngx-your-library.js.map ./ngx-your-library.d.ts",
     "watch": "webpack --watch --progress --profile",
     "build": "tsc --p tsconfig-build.json",
     "server": "webpack-dev-server --inline --progress --port 8080",

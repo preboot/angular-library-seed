@@ -29,7 +29,7 @@ A simple straight-forward seed for creating Angular Libraries.
 * Testing Angular code with [Jasmine](http://jasmine.github.io/) and [Karma](http://karma-runner.github.io/).
 * End-to-end Angular code using [Protractor](https://angular.github.io/protractor/).
 * Error reported with [TSLint](http://palantir.github.io/tslint/).
-* Documentation with [TypeDoc](http://typedoc.io/).
+* Documentation with [TypeDoc](http://typedoc.org/).
 
 #### Table of Contents
 
@@ -79,7 +79,7 @@ It will start a local demo server using `webpack-dev-server` which will watch, b
 
 ## Documentation
 
-You can generate api docs (using [TypeDoc](http://typedoc.io/)) for your code with the following:
+You can generate api docs (using [TypeDoc](http://typedoc.org/)) for your code with the following:
 ```bash
 npm run docs
 ```
